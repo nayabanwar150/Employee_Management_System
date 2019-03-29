@@ -1,0 +1,86 @@
+div{
+		width: 500px;
+		margin-left: 360px;
+	}
+	input[type="text"],textarea{
+		border: 1px solid dashed;
+		background-color: rgb(221,216,212);
+		width: 480px;
+		padding: 0.5em;
+		font-size: 1.0em;
+	}
+	input[type="submit"]{
+		color: white;
+		font-size: 1.0em;
+		font-family: Bitter,Georgia,Times,"Times New Roman",serif;
+		width: 200px;
+		height: 40px;
+		background-color: #5D0580;
+		border-radius: 35px;
+		border-color: rgb(221,216,212);
+		font-weight: bold;
+		float: left;
+	}
+	.FieldInfo,.FieldInfoNew{
+		color: rgb(251, 174,44);
+		font-family: Bitter,Georgia,Times,"Times New Roman",serif;
+		font-size: 1em;
+	}
+	.success,caption{
+		color: green;
+		font-family: Bitter,Georgia,Times,"Times New Roman",serif;
+		font-size: 1.5em;
+		padding: 1em;
+	}
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.center-div{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.heading{
+	width: 100%;
+	line-height: 80px;
+	font-size: 1.4rem;
+	background: -webkit-linear-gradient(left, #0072ff, #8811c5);
+	font-family: 'Staatliches', cursive;
+}
+
+#navbar {
+	background-color: #5D0580;
+    border-color: rgb(221,216,212);
+}
+#navbar .btn {
+	border:0px solid transparent;
+}
+#navbar .btn-default.focus, #navbar .btn-default:focus {
+	-webkit-box-shadow: none !important;
+	box-shadow: none !important;
+}
+#navbar li.nav-item a {
+	color: white;
+	font-weight:700;
+	text-decoration: none;
+}
+#navbar li.nav-item a:hover {
+	color:red;
+}
+#navbar a.dropdown-item {
+	font-weight:400 !important;
+}
+#navbar button.dropdown-toggle-split {
+	background-color:transparent;
+}
+#navbar button.dropdown-toggle-split:hover {
+	color:#fff;
+}
+#navbar button.dropdown-toggle-split:active {
+	outline:none;
+}
